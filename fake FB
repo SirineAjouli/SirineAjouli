@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+    *{ padding:0; margin:0;}
+    .c{text-align:center;
+    background-color:yellow;}
+    .header{background-color:;
+    color:blue; letter-spacing: px; font-size: px; text-align: center; margin: 0px auto;margin-top: 30px;}
+
+    form{text-align: center; padding: -10px;}
+    input{ width: 200px; margin: 4px 0; padding: 5px;}
+    button{
+      padding: 5px 90px; background-color: blue;color: white;
+    }
+    a{text-decoration: none;letter-spacing: -1px;}
+    .fgt{text-align: center;}
+    .l{text-align: center;}
+    .d1{width: 45%;display: inline-block; margin-top: -2px;}
+    .d2{width: 45%;float: right; margin-top: 11px;}
+    .d2::before{content: or;}
+    .b{text-align: center;}
+    .bt{
+      text-align: center;
+      background-color: green;
+      width: ;
+      padding: 5px 0;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+    .m{text-align: center; font-size: 10px;}
+    .ld1{width: 50%; display: inline-block; background:;}
+    .ld2{width: 50%; display: inline-block; float:right; background:;}
+    clearfix::after{content: ''; display: block;clear: both;}
+    .ft{text-align: center;padding:4px 8px ;}
+
+    </style>
+</head>
+<body bgcolor="white" style="color:blue;">
+<h1 align="center" >facebook </h1>
+<from>
+<input type="Number" placeholder="Mobile number or email"> <br>
+<br>
+<input type="password" placeholder="password" ><br>
+<from/>
+    <div class="fgt">
+        <a href="">Forgotten Password <a/>
+            <br>
+            <hr class="d1">or<hr class="d2">
+        </div>
+  <br>
+  <div class="b">
+    <button class="bt">create new account </button>
+
+  </div>
+  <div class="m">
+    <div class="ld1">English(UK)
+      <br>
+    Hindi    </div>
+  <div class="ld2">Bangla <br>
+Espanol  </div>
+<div>
+  <footer class="ft">
+    <samp>Facebook inc</samp>
+  </footer>
+</div>
+  </div>
+</div>
+<h1>
+</body>
+</html>
