@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: 'Poppins', sans-serif;
+        }
+        
+        body {
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .box {
+            width: 55px;
+            height: 58px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            padding: 5px;
+            cursor: pointer;
+            margin: 0.6em;
+            transition: all .4s;
+        }
+        
+        .box:hover {
+            width: 160px;
+            background: #c32aa3;
+            border-radius: 10px;
+            color: antiquewhite;
+            box-shadow: 0 0 50px #1876f285;
+        }
+        
+        .box:nth-child(2):hover {
+            background: #29c8e47c;
+            box-shadow: 0 0 50px #1876f285;
+        }
+        
+        .box:nth-child(3):hover {
+            width: 130px;
+            background: #d3bdce;
+            box-shadow: 0 0 50px #97acc785;
+        }
+        
+        .box:nth-child(4):hover {
+            background: #05b8737c;
+            box-shadow: 0 0 50px #9fc3f385;
+        }
+        
+        p {
+            transform: translate(60px);
+        }
+        
+        .box.icon {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            border-radius: 10px;
+            margin-right: 10px;
+            transition: all .4s;
+        }
+        
+        .instagram {
+            background: #bd5d0e;
+        }
+        
+        .facebook {
+            background: #1c5fc4;
+        }
+        
+        .twitter {
+            background: #ddc4d9;
+        }
+        
+        .whatsapp {
+            background: #1db944;
+        }
+        
+        .box:hover.icon {
+            background: white;
+            color: rgb(59, 59, 59);
+            box-shadow: 0 0 20px rgb(0, 0, 0, 0.26);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="icon instagram ">
+                <i class="fab fa-instagram fa-2x"></i> </div>
+            <p>Instagram</p>
+        </div>
+        <div class="box">
+            <div class="icon facebook ">
+                <i class="fab fa-facebook fa-2x">
+                    </i>
+            </div>
+            <p>Facebook </p>
+        </div>
+        <div class="box">
+            <div class="icon twitter ">
+                <i class="fab fa-twitter fa-2x"></i> </div>
+            <p>Twitter</p>
+        </div>
+        <div class="box">
+            <div class="icon whatsapp">
+                <i class="fab fa-whatsapp fa-2x"></i> </div>
+            <p>WhatsApp</p>
+        </div>
+
+
+</body>
+
+</html>
